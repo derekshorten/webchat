@@ -1,0 +1,150 @@
+
+head{
+     
+    }
+header{
+	   background-color:#99CC00;
+	   background-color: hsla(0,0%,50%);
+	   border: 5px ;
+	   
+	  }
+
+nav{
+	float:left;
+	border: 5px; 
+	height: 85%;
+	background-color:#0099FF;
+	background-color: hsla(0,0%,50%);
+   }
+   
+body{
+
+	 width: 90%;
+	 height: 100%;
+	 background-color: #D6D6C2;
+	 background-color: hsla(0,0%,50%);
+	 border:1px dashed;
+	 overflow:auto;
+	 position: absolute;
+	 margin:10px;
+	 padding:5px;
+	}
+	
+form.login{
+		   
+		   float:left;
+	       text-align:center;
+           margin:5px; 
+           background-color: #efefef;
+	       padding:2%; 
+	       width: 41%;
+	       height: 79%;
+	       overflow:auto; 
+	       border:1px solid;
+		  
+	     }
+	  
+form.sign_up{
+			 float:right;
+			 text-align:center;
+             margin:5px; 
+			 background-color: #efefef;
+			 padding:2%; 
+			 width: 41%;
+			 height: 79%;
+			 overflow:auto; 
+			 border:1px solid;
+			
+			}
+
+.clear{
+	   clear:both;
+	  }
+
+form.chat{
+		
+		   float:left;
+	       text-align:left;
+           margin:5px; 
+            background-color: #efefef;
+	       padding:2%; 
+	       width: 40%;
+	       height:72%;
+	       overflow:auto; 
+	       border:1px solid;
+	     }
+textarea{   
+		width:300px;
+		height: 40px;
+		
+		}
+fieldset.chat{
+text-align:center;
+position: absolute;
+width: 38%;
+bottom: 20px;
+left:15px;
+ background-color: #efefef;
+}
+#photo-viewer {
+			   position: relative;
+			   height:300px;
+			   overflow: hidden;}
+#photo-viewer.is-loading:after {
+	content:url(Images/8550P.jpg);
+	position: absolute;
+	top:0;
+	right:0;}
+	
+#photo-viewer img{
+position:absolute;
+max-width:100%;
+max-height:100%;
+top:50%;
+left:50%;
+}
+a.active{
+opacity0.3;}  
+footer{
+	  position:absolute;
+	  bottom:0px;
+	  height:20px;
+	 
+	  background-color: #0099FF; 
+	 }
+form.search{
+
+		   float:left;
+	       text-align:center;
+           margin:5px; 
+           background-color: #efefef;
+	       padding:2%; 
+	       width: 41%;
+	       height: 85%;
+	       overflow:auto; 
+	       border:1px solid;
+	     }
+		 
+table{
+overflow:hidden;
+overflow:auto;
+ overflow: scroll;
+ background-color: #c3e6e5;
+border: Solid #000000;
+box-shadow: 0 0 10px #777777;
+ }
+ th, td {
+ padding:7px 10px 10px 10px;
+  }
+  tr.even{
+	  background-color:#efefef;
+  }
+   tr:hover{
+	  background-color:#FFFFFF;
+  }
+.button {
+display:inline-block;
+min-width: 50px;
+width: 80px;
+padding:5px 10px;
+}		 
